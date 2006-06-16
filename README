@@ -1,0 +1,288 @@
+mowitz
+------------------------------------------
+This is the Mowitz ("More widgets") library.
+The project's goal is to create a library of widgets for X applications
+to use. The widgets have been snarfed from various sources and are all
+open source (GPL or MIT licenses).
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  libneXtaw-0.15.1-2
+  xorg-x11-bin-dlls-6.8.2.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://siag.nu/mowitz/
+
+Canonical download:
+  http://siag.nu/pub/mowitz/
+
+-------------------------------------------
+
+Build instructions:
+  unpack mowitz-0.3.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./Mowitz-0.3.0-X.sh all
+
+This will create:
+  /usr/src/mowitz-0.3.0-X-src.tar.bz2
+  /usr/src/mowitz-0.3.0-X.tar.bz2
+  /usr/src/mowitz-devel-0.3.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/bin/cygMowitz-0.dll
+  /usr/share/doc/Cygwin/mowitz-0.3.0.README
+  /usr/share/doc/mowitz-0.3.0/AUTHORS
+  /usr/share/doc/mowitz-0.3.0/ChangeLog
+  /usr/share/doc/mowitz-0.3.0/COPYING
+  /usr/share/doc/mowitz-0.3.0/Filesel.html
+  /usr/share/doc/mowitz-0.3.0/INSTALL
+  /usr/share/doc/mowitz-0.3.0/ListTree.gif
+  /usr/share/doc/mowitz-0.3.0/ListTree.HISTORY
+  /usr/share/doc/mowitz-0.3.0/ListTree.html
+  /usr/share/doc/mowitz-0.3.0/ListTree.README
+  /usr/share/doc/mowitz-0.3.0/ListTreeProg.html
+  /usr/share/doc/mowitz-0.3.0/ListTreeTitle.gif
+  /usr/share/doc/mowitz-0.3.0/new.gif
+  /usr/share/doc/mowitz-0.3.0/NEWS
+  /usr/share/doc/mowitz-0.3.0/README
+  /usr/share/doc/mowitz-0.3.0/Slider.man
+  /usr/share/doc/mowitz-0.3.0/Slider.README
+  /usr/share/doc/mowitz-0.3.0/TreeFSel.gif
+  /usr/share/Mowitz/any2xpm
+  /usr/share/Mowitz/FontDataBase
+  /usr/share/Mowitz/fonts/agd.afm
+  /usr/share/Mowitz/fonts/agdo.afm
+  /usr/share/Mowitz/fonts/agw.afm
+  /usr/share/Mowitz/fonts/agwo.afm
+  /usr/share/Mowitz/fonts/bchb.afm
+  /usr/share/Mowitz/fonts/bchb.pfb
+  /usr/share/Mowitz/fonts/bchbi.afm
+  /usr/share/Mowitz/fonts/bchbi.pfb
+  /usr/share/Mowitz/fonts/bchr.afm
+  /usr/share/Mowitz/fonts/bchr.pfb
+  /usr/share/Mowitz/fonts/bchri.afm
+  /usr/share/Mowitz/fonts/bchri.pfb
+  /usr/share/Mowitz/fonts/bkd.afm
+  /usr/share/Mowitz/fonts/bkdi.afm
+  /usr/share/Mowitz/fonts/bkl.afm
+  /usr/share/Mowitz/fonts/bkli.afm
+  /usr/share/Mowitz/fonts/cob.afm
+  /usr/share/Mowitz/fonts/cobo.afm
+  /usr/share/Mowitz/fonts/com.afm
+  /usr/share/Mowitz/fonts/coo.afm
+  /usr/share/Mowitz/fonts/hv.afm
+  /usr/share/Mowitz/fonts/hvb.afm
+  /usr/share/Mowitz/fonts/hvbo.afm
+  /usr/share/Mowitz/fonts/hvn.afm
+  /usr/share/Mowitz/fonts/hvnb.afm
+  /usr/share/Mowitz/fonts/hvnbo.afm
+  /usr/share/Mowitz/fonts/hvno.afm
+  /usr/share/Mowitz/fonts/hvo.afm
+  /usr/share/Mowitz/fonts/ncb.afm
+  /usr/share/Mowitz/fonts/ncbi.afm
+  /usr/share/Mowitz/fonts/nci.afm
+  /usr/share/Mowitz/fonts/ncr.afm
+  /usr/share/Mowitz/fonts/pob.afm
+  /usr/share/Mowitz/fonts/pobi.afm
+  /usr/share/Mowitz/fonts/poi.afm
+  /usr/share/Mowitz/fonts/por.afm
+  /usr/share/Mowitz/fonts/sy.afm
+  /usr/share/Mowitz/fonts/tib.afm
+  /usr/share/Mowitz/fonts/tibi.afm
+  /usr/share/Mowitz/fonts/tii.afm
+  /usr/share/Mowitz/fonts/tir.afm
+  /usr/share/Mowitz/fonts/tnrl2bi_.afm
+  /usr/share/Mowitz/fonts/tnrl2bi_.pfb
+  /usr/share/Mowitz/fonts/tnrl2b__.afm
+  /usr/share/Mowitz/fonts/tnrl2b__.pfb
+  /usr/share/Mowitz/fonts/tnrl2i__.afm
+  /usr/share/Mowitz/fonts/tnrl2i__.pfb
+  /usr/share/Mowitz/fonts/tnrl2___.afm
+  /usr/share/Mowitz/fonts/tnrl2___.pfb
+  /usr/share/Mowitz/fonts/uhvb8a.afm
+  /usr/share/Mowitz/fonts/uhvbo8a.afm
+  /usr/share/Mowitz/fonts/uhvr8a.afm
+  /usr/share/Mowitz/fonts/uhvro8a.afm
+  /usr/share/Mowitz/fonts/utmb8a.afm
+  /usr/share/Mowitz/fonts/utmbi8a.afm
+  /usr/share/Mowitz/fonts/utmr8a.afm
+  /usr/share/Mowitz/fonts/utmri8a.afm
+  /usr/share/Mowitz/fonts/zcmi.afm
+  /usr/share/Mowitz/fonts/zd.afm
+  /usr/share/Mowitz/fonts.txt
+  /usr/share/Mowitz/IsoLatin1.enc
+  /usr/share/Mowitz/IsoLatin2.enc
+  /usr/share/Mowitz/mkt1cfg
+  /usr/share/Mowitz/pixmaps/c2off.xpm
+  /usr/share/Mowitz/pixmaps/c2on.xpm
+  /usr/share/Mowitz/pixmaps/check_motif_off.xpm
+  /usr/share/Mowitz/pixmaps/check_motif_on.xpm
+  /usr/share/Mowitz/pixmaps/choff.xpm
+  /usr/share/Mowitz/pixmaps/chon.xpm
+  /usr/share/Mowitz/pixmaps/combo.xpm
+  /usr/share/Mowitz/pixmaps/croff.xpm
+  /usr/share/Mowitz/pixmaps/cron.xpm
+  /usr/share/Mowitz/pixmaps/ctab.xpm
+  /usr/share/Mowitz/pixmaps/c_off.xpm
+  /usr/share/Mowitz/pixmaps/c_on.xpm
+  /usr/share/Mowitz/pixmaps/doff.xpm
+  /usr/share/Mowitz/pixmaps/don.xpm
+  /usr/share/Mowitz/pixmaps/handlebg.xpm
+  /usr/share/Mowitz/pixmaps/ltab.xpm
+  /usr/share/Mowitz/pixmaps/mc2off.xpm
+  /usr/share/Mowitz/pixmaps/mc2on.xpm
+  /usr/share/Mowitz/pixmaps/mchoff.xpm
+  /usr/share/Mowitz/pixmaps/mchon.xpm
+  /usr/share/Mowitz/pixmaps/mcoff.xpm
+  /usr/share/Mowitz/pixmaps/mcon.xpm
+  /usr/share/Mowitz/pixmaps/mcroff.xpm
+  /usr/share/Mowitz/pixmaps/mcron.xpm
+  /usr/share/Mowitz/pixmaps/mdoff.xpm
+  /usr/share/Mowitz/pixmaps/mdon.xpm
+  /usr/share/Mowitz/pixmaps/mroff.xpm
+  /usr/share/Mowitz/pixmaps/mron.xpm
+  /usr/share/Mowitz/pixmaps/radio_16_off.xpm
+  /usr/share/Mowitz/pixmaps/radio_16_on.xpm
+  /usr/share/Mowitz/pixmaps/radio_motif_off.xpm
+  /usr/share/Mowitz/pixmaps/radio_motif_on.xpm
+  /usr/share/Mowitz/pixmaps/roff.xpm
+  /usr/share/Mowitz/pixmaps/ron.xpm
+  /usr/share/Mowitz/pixmaps/rtab.xpm
+  /usr/share/Mowitz/pixmaps/spindown.xpm
+  /usr/share/Mowitz/pixmaps/spinup.xpm
+  /usr/share/Mowitz/pixmaps/tickbox_off.xpm
+  /usr/share/Mowitz/pixmaps/tickbox_on.xpm
+  /usr/share/Mowitz/pixmaps/trioff.xpm
+  /usr/share/Mowitz/pixmaps/trion.xpm
+  /usr/share/Mowitz/pixmaps/unknown.xpm
+  /usr/share/Mowitz/readpfa
+  /usr/share/Mowitz/rgb.txt
+  /usr/share/Mowitz/t1lib.config
+
+Files included in the devel package:
+
+  /usr/bin/mowitz-config
+  /usr/include/Mowitz/Mowitz.h
+  /usr/include/Mowitz/MwAnimator.h
+  /usr/include/Mowitz/MwAnimatorP.h
+  /usr/include/Mowitz/MwAnimatorTypes.h
+  /usr/include/Mowitz/MwApplicationShell.h
+  /usr/include/Mowitz/MwApplicationShellP.h
+  /usr/include/Mowitz/MwBase.h
+  /usr/include/Mowitz/MwBaseComp.h
+  /usr/include/Mowitz/MwBaseCompP.h
+  /usr/include/Mowitz/MwBaseConst.h
+  /usr/include/Mowitz/MwBaseConstP.h
+  /usr/include/Mowitz/MwBaseME.h
+  /usr/include/Mowitz/MwBaseMEP.h
+  /usr/include/Mowitz/MwBaseP.h
+  /usr/include/Mowitz/MwButton.h
+  /usr/include/Mowitz/MwButtonP.h
+  /usr/include/Mowitz/MwCanvas.h
+  /usr/include/Mowitz/MwCanvasP.h
+  /usr/include/Mowitz/MwCheck.h
+  /usr/include/Mowitz/MwCheckME.h
+  /usr/include/Mowitz/MwCheckMEP.h
+  /usr/include/Mowitz/MwCheckP.h
+  /usr/include/Mowitz/MwCombo.h
+  /usr/include/Mowitz/MwComboP.h
+  /usr/include/Mowitz/MwDialog.h
+  /usr/include/Mowitz/MwDND.h
+  /usr/include/Mowitz/MwDNDTypes.h
+  /usr/include/Mowitz/MwFilesel.h
+  /usr/include/Mowitz/MwFileselP.h
+  /usr/include/Mowitz/MwFormat.h
+  /usr/include/Mowitz/MwFormatP.h
+  /usr/include/Mowitz/MwFrame.h
+  /usr/include/Mowitz/MwFrameP.h
+  /usr/include/Mowitz/MwGcs.h
+  /usr/include/Mowitz/MwHandle.h
+  /usr/include/Mowitz/MwHandleP.h
+  /usr/include/Mowitz/MwImage.h
+  /usr/include/Mowitz/MwImageP.h
+  /usr/include/Mowitz/MwLabelME.h
+  /usr/include/Mowitz/MwLabelMEP.h
+  /usr/include/Mowitz/MwLineME.h
+  /usr/include/Mowitz/MwLineMEP.h
+  /usr/include/Mowitz/MwListTree.h
+  /usr/include/Mowitz/MwListTreeP.h
+  /usr/include/Mowitz/MwMBButton.h
+  /usr/include/Mowitz/MwMBButtonP.h
+  /usr/include/Mowitz/MwMenu.h
+  /usr/include/Mowitz/MwMenuBar.h
+  /usr/include/Mowitz/MwMenuBarP.h
+  /usr/include/Mowitz/MwMenuButton.h
+  /usr/include/Mowitz/MwMenuButtonP.h
+  /usr/include/Mowitz/MwMenuP.h
+  /usr/include/Mowitz/MwNotebook.h
+  /usr/include/Mowitz/MwNotebookP.h
+  /usr/include/Mowitz/MwNws.h
+  /usr/include/Mowitz/MwPopText.h
+  /usr/include/Mowitz/MwPopTextP.h
+  /usr/include/Mowitz/MwRichtext.h
+  /usr/include/Mowitz/MwRichtextP.h
+  /usr/include/Mowitz/MwRow.h
+  /usr/include/Mowitz/MwRowP.h
+  /usr/include/Mowitz/MwRudegrid.h
+  /usr/include/Mowitz/MwRudegridP.h
+  /usr/include/Mowitz/MwRuler.h
+  /usr/include/Mowitz/MwRulerP.h
+  /usr/include/Mowitz/MwSButton.h
+  /usr/include/Mowitz/MwSButtonP.h
+  /usr/include/Mowitz/MwSlider.h
+  /usr/include/Mowitz/MwSliderP.h
+  /usr/include/Mowitz/MwSpinner.h
+  /usr/include/Mowitz/MwSpinnerP.h
+  /usr/include/Mowitz/MwSubME.h
+  /usr/include/Mowitz/MwSubMEP.h
+  /usr/include/Mowitz/MwTabbing.h
+  /usr/include/Mowitz/MwTabbingP.h
+  /usr/include/Mowitz/MwTable.h
+  /usr/include/Mowitz/MwTableP.h
+  /usr/include/Mowitz/MwTabs.h
+  /usr/include/Mowitz/MwTabsP.h
+  /usr/include/Mowitz/MwTabstop.h
+  /usr/include/Mowitz/MwTabstopP.h
+  /usr/include/Mowitz/MwTextField.h
+  /usr/include/Mowitz/MwTextFieldP.h
+  /usr/include/Mowitz/MwTooltip.h
+  /usr/include/Mowitz/MwTooltipP.h
+  /usr/include/Mowitz/MwTraverse.h
+  /usr/include/Mowitz/MwUtils.h
+  /usr/include/Mowitz/MwVSlider.h
+  /usr/include/Mowitz/MwVSliderP.h
+  /usr/include/Mowitz/MwXFormat.h
+  /usr/include/Mowitz/MwXutils.h
+  /usr/lib/libMowitz.dll.a
+  /usr/lib/libMowitz.la
+
+------------------
+
+Port Notes:
+
+----- version 0.3.0-2 -----
+Rebuilt with prefix=/usr and current toolchain.
+
+----- version 0.3.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
