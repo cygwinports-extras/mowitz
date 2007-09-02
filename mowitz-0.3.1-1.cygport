@@ -1,0 +1,11 @@
+DESCRIPTION="X11 More Widgets library"
+HOMEPAGE="http://siag.nu/mowitz/"
+SRC_URI="http://siag.nu/pub/mowitz/Mowitz-${PV}.tar.gz"
+SRC_DIR="Mowitz-${PV}"
+
+PKG_NAMES="${PN} ${PN}-devel"
+PKG_HINTS="setup devel"
+PKG_CONTENTS[0]='usr/bin/*.dll usr/share/'
+PKG_CONTENTS[1]="usr/bin/${PN}-config usr/include/ usr/lib/"
+
+CYGCONF_ARGS="--disable-static"
