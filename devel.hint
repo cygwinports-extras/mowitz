@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin mowitz libX11-devel libXext-devel libXmu-devel libXpm-devel libXt-devel neXtaw
+requires: cygwin mowitz libX11-devel libXext-devel libXmu-devel libXpm-devel libXt-devel libneXtaw-devel
 external-source: mowitz
 sdesc: "X11 More Widgets library (development)"
 ldesc: "This is the Mowitz (`More widgets') library.
