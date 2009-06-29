@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libX11_6 libXext6 libXmu6 libXpm4 libXt6 libneXtaw0
+requires: libX11_6 libXext6 libXmu6 libXpm4 libXt6 libneXtaw0
 sdesc: "X11 More Widgets library (runtime)"
 ldesc: "This is the Mowitz (`More widgets') library.
 The project's goal is to create a library of widgets for X applications
